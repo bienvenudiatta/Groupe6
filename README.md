@@ -25,7 +25,7 @@ Ce projet consiste à mettre en place une infrastructure réseau virtualisée s�
 | ------- | ---------------------- | --------------- | ------------      |
 | DC1     | Active Directory + DNS | LAN             | 192.168.100.10/24 |
 | WEB1    | Serveur Web (IIS)      | DMZ             | 10.10.10.10/24    |
-| MAIL1   | Serveur SMTP           | DMZ             | 192.168.2.20/24   |
+| MAIL1   | Serveur SMTP           | DMZ             | 10.10.10.20/24    |
 | PFSENSE | Firewall / Routeur     | WAN / LAN / DMZ | -                 |
 
 ---
