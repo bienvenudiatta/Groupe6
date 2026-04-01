@@ -154,7 +154,7 @@ Ce projet consiste à mettre en place une infrastructure réseau virtualisée s�
 * Nom : Ibrahima DIALLO
 * Nom : Bienvenu DIATTA
 * Nom : Bassirou DIAO
-* Projet académique – Systèmes, Réseaux et Télécoms
+* Projet académique – Systèmes, Réseaux
 
 ---
 
