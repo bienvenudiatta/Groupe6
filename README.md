@@ -21,12 +21,12 @@ Ce projet consiste à mettre en place une infrastructure réseau virtualisée s�
 
 ### 🔹 Machines virtuelles
 
-| Nom     | Rôle                   | Réseau          | IP           |
-| ------- | ---------------------- | --------------- | ------------ |
-| DC1     | Active Directory + DNS | LAN             | 192.168.1.10 |
-| WEB1    | Serveur Web (IIS)      | DMZ             | 192.168.2.10 |
-| MAIL1   | Serveur SMTP           | DMZ             | 192.168.2.20 |
-| PFSENSE | Firewall / Routeur     | WAN / LAN / DMZ | -            |
+| Nom     | Rôle                   | Réseau          | IP                |
+| ------- | ---------------------- | --------------- | ------------      |
+| DC1     | Active Directory + DNS | LAN             | 192.168.100.10/24 |
+| WEB1    | Serveur Web (IIS)      | DMZ             | 10.10.10.10/24    |
+| MAIL1   | Serveur SMTP           | DMZ             | 192.168.2.20/24   |
+| PFSENSE | Firewall / Routeur     | WAN / LAN / DMZ | -                 |
 
 ---
 
@@ -75,8 +75,8 @@ Ce projet consiste à mettre en place une infrastructure réseau virtualisée s�
 * Configuration des interfaces pfSense :
 
   * WAN → Internet
-  * LAN → 192.168.1.0/24
-  * DMZ → 192.168.2.0/24
+  * LAN → 192.168.100.1/24
+  * DMZ → 10.10.10.1/24
 
 ---
 
